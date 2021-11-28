@@ -1,14 +1,23 @@
 body {
-  background-image: url("./img/website-bg.jpg");
+  background-image: url(./img/website-bg.jpg);
   background-repeat: repeat;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu" sans-serif;
   background-size: 100%;
 }
-
-.background {
-  filter: blur(100px);
+body .profile-name {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 30px;
+  font-size: 28px;
+  color: white;
+  padding-bottom: 3px;
 }
-.profile-picture {
+body .profile-desc {
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+body .profile-picture {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -18,23 +27,7 @@ body {
   border-radius: 80%;
 }
 
-.profile-name {
-  text-align: center;
-  text-transform: uppercase;
-  padding: 30px;
-  font-size: 28px;
-  color: white;
-
-  padding-bottom: 3px;
-}
-
-.profile-desc {
-  text-align: center;
-  font-size: 15px;
-  color: white;
-}
-
-.links {
+.social a {
   text-align: center;
   margin-top: 30px;
   border: white solid 3px;
@@ -54,7 +47,6 @@ body {
   width: 250px;
   border-radius: 20px;
 }
-
 .links:not(:hover) {
   transition: 0.5s;
 }
