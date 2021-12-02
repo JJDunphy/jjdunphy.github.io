@@ -1,0 +1,52 @@
+body {
+  background-image: url(./img/website-bg.jpg);
+  background-repeat: repeat;
+  font-family: "Ubuntu" sans-serif;
+  background-size: 100%;
+}
+body .profile-name {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 30px;
+  font-size: 28px;
+  color: white;
+  padding-bottom: 3px;
+}
+body .profile-desc {
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+body .profile-picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  height: auto;
+  max-width: 200px;
+  border-radius: 80%;
+}
+
+.social a {
+  text-align: center;
+  margin-top: 30px;
+  border: white solid 3px;
+  color: white;
+  text-decoration: none;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+.links:hover {
+  transition: 0.5s;
+  background-color: white;
+  color: black;
+  width: 250px;
+  border-radius: 20px;
+}
+.links:not(:hover) {
+  transition: 0.5s;
+}
